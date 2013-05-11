@@ -1,0 +1,256 @@
+﻿Stage 1.1: tiny count, single length
+  Time: 4 391 ms
+    Task: append strings with lengths [1] 1 times
+          total length 1, repeat 100 000 000 times
+  Time: 4 535 ms
+    Task: append strings with lengths [2] 1 times
+          total length 2, repeat 100 000 000 times
+  Time: 4 679 ms
+    Task: append strings with lengths [5] 1 times
+          total length 5, repeat 100 000 000 times
+  Time: 5 085 ms
+    Task: append strings with lengths [10] 1 times
+          total length 10, repeat 100 000 000 times
+  Time: 9 640 ms
+    Task: append strings with lengths [20] 1 times
+          total length 20, repeat 100 000 000 times
+  Time: 11 276 ms
+    Task: append strings with lengths [50] 1 times
+          total length 50, repeat 100 000 000 times
+  Time: 13 958 ms
+    Task: append strings with lengths [100] 1 times
+          total length 100, repeat 100 000 000 times
+  Time: 53 579 ms
+    Task: total stage part
+Stage 1.2: tiny count, single & double length
+  Time: 5 071 ms
+    Task: append strings with lengths [1, 2] 1 times
+          total length 3, repeat 100 000 000 times
+  Time: 5 326 ms
+    Task: append strings with lengths [2, 4] 1 times
+          total length 6, repeat 100 000 000 times
+  Time: 5 996 ms
+    Task: append strings with lengths [5, 10] 1 times
+          total length 15, repeat 100 000 000 times
+  Time: 10 954 ms
+    Task: append strings with lengths [10, 20] 1 times
+          total length 30, repeat 100 000 000 times
+  Time: 16 328 ms
+    Task: append strings with lengths [20, 40] 1 times
+          total length 60, repeat 100 000 000 times
+  Time: 20 853 ms
+    Task: append strings with lengths [50, 100] 1 times
+          total length 150, repeat 100 000 000 times
+  Time: 64 534 ms
+    Task: total stage part
+Stage 1.3: tiny count, various length
+  Time: 11 902 ms
+    Task: append strings with lengths [1, 10, 2, 5] 1 times
+          total length 18, repeat 100 000 000 times
+  Time: 17 191 ms
+    Task: append strings with lengths [2, 20, 4, 10] 1 times
+          total length 36, repeat 100 000 000 times
+  Time: 19 699 ms
+    Task: append strings with lengths [5, 50, 10, 25] 1 times
+          total length 90, repeat 100 000 000 times
+  Time: 24 493 ms
+    Task: append strings with lengths [10, 100, 20, 50] 1 times
+          total length 180, repeat 100 000 000 times
+  Time: 73 291 ms
+    Task: total stage part
+Stage done!
+  Time: 191 408 ms
+    Task: total stage
+Stage 2.1: small count, single length
+  Time: 874 ms
+    Task: append strings with lengths [1] 100 times
+          total length 100, repeat 1 000 000 times
+  Time: 1 074 ms
+    Task: append strings with lengths [2] 100 times
+          total length 200, repeat 1 000 000 times
+  Time: 1 529 ms
+    Task: append strings with lengths [5] 100 times
+          total length 500, repeat 1 000 000 times
+  Time: 1 886 ms
+    Task: append strings with lengths [10] 100 times
+          total length 1 000, repeat 1 000 000 times
+  Time: 2 412 ms
+    Task: append strings with lengths [20] 100 times
+          total length 2 000, repeat 1 000 000 times
+  Time: 4 306 ms
+    Task: append strings with lengths [50] 100 times
+          total length 5 000, repeat 1 000 000 times
+  Time: 7 151 ms
+    Task: append strings with lengths [100] 100 times
+          total length 10 000, repeat 1 000 000 times
+  Time: 19 241 ms
+    Task: total stage part
+Stage 2.2: small count, single & double length
+  Time: 1 691 ms
+    Task: append strings with lengths [1, 2] 100 times
+          total length 300, repeat 1 000 000 times
+  Time: 2 235 ms
+    Task: append strings with lengths [2, 4] 100 times
+          total length 600, repeat 1 000 000 times
+  Time: 3 186 ms
+    Task: append strings with lengths [5, 10] 100 times
+          total length 1 500, repeat 1 000 000 times
+  Time: 4 100 ms
+    Task: append strings with lengths [10, 20] 100 times
+          total length 3 000, repeat 1 000 000 times
+  Time: 5 913 ms
+    Task: append strings with lengths [20, 40] 100 times
+          total length 6 000, repeat 1 000 000 times
+  Time: 10 777 ms
+    Task: append strings with lengths [50, 100] 100 times
+          total length 15 000, repeat 1 000 000 times
+  Time: 27 911 ms
+    Task: total stage part
+Stage 2.3: small count, various length
+  Time: 4 417 ms
+    Task: append strings with lengths [1, 10, 2, 5] 100 times
+          total length 1 800, repeat 1 000 000 times
+  Time: 5 995 ms
+    Task: append strings with lengths [2, 20, 4, 10] 100 times
+          total length 3 600, repeat 1 000 000 times
+  Time: 9 676 ms
+    Task: append strings with lengths [5, 50, 10, 25] 100 times
+          total length 9 000, repeat 1 000 000 times
+  Time: 14 177 ms
+    Task: append strings with lengths [10, 100, 20, 50] 100 times
+          total length 18 000, repeat 1 000 000 times
+  Time: 34 272 ms
+    Task: total stage part
+Stage done!
+  Time: 81 428 ms
+    Task: total stage
+Stage 3.1: medium count, single length
+  Time: 661 ms
+    Task: append strings with lengths [1] 10 000 times
+          total length 10 000, repeat 10 000 times
+  Time: 828 ms
+    Task: append strings with lengths [2] 10 000 times
+          total length 20 000, repeat 10 000 times
+  Time: 1 500 ms
+    Task: append strings with lengths [5] 10 000 times
+          total length 50 000, repeat 10 000 times
+  Time: 2 052 ms
+    Task: append strings with lengths [10] 10 000 times
+          total length 100 000, repeat 10 000 times
+  Time: 3 069 ms
+    Task: append strings with lengths [20] 10 000 times
+          total length 200 000, repeat 10 000 times
+  Time: 7 321 ms
+    Task: append strings with lengths [50] 10 000 times
+          total length 500 000, repeat 10 000 times
+  Time: 16 199 ms
+    Task: append strings with lengths [100] 10 000 times
+          total length 1 000 000, repeat 10 000 times
+  Time: 31 639 ms
+    Task: total stage part
+Stage 3.2: medium count, single & double length
+  Time: 1 359 ms
+    Task: append strings with lengths [1, 2] 10 000 times
+          total length 30 000, repeat 10 000 times
+  Time: 2 179 ms
+    Task: append strings with lengths [2, 4] 10 000 times
+          total length 60 000, repeat 10 000 times
+  Time: 3 476 ms
+    Task: append strings with lengths [5, 10] 10 000 times
+          total length 150 000, repeat 10 000 times
+  Time: 5 239 ms
+    Task: append strings with lengths [10, 20] 10 000 times
+          total length 300 000, repeat 10 000 times
+  Time: 9 638 ms
+    Task: append strings with lengths [20, 40] 10 000 times
+          total length 600 000, repeat 10 000 times
+  Time: 29 302 ms
+    Task: append strings with lengths [50, 100] 10 000 times
+          total length 1 500 000, repeat 10 000 times
+  Time: 51 202 ms
+    Task: total stage part
+Stage 3.3: medium count, various length
+  Time: 4 892 ms
+    Task: append strings with lengths [1, 10, 2, 5] 10 000 times
+          total length 180 000, repeat 10 000 times
+  Time: 7 657 ms
+    Task: append strings with lengths [2, 20, 4, 10] 10 000 times
+          total length 360 000, repeat 10 000 times
+  Time: 17 219 ms
+    Task: append strings with lengths [5, 50, 10, 25] 10 000 times
+          total length 900 000, repeat 10 000 times
+  Time: 40 371 ms
+    Task: append strings with lengths [10, 100, 20, 50] 10 000 times
+          total length 1 800 000, repeat 10 000 times
+  Time: 70 144 ms
+    Task: total stage part
+Stage done!
+  Time: 152 987 ms
+    Task: total stage
+Stage 4.1: big count, single length
+  Time: 748 ms
+    Task: append strings with lengths [1] 1 000 000 times
+          total length 1 000 000, repeat 100 times
+  Time: 1 131 ms
+    Task: append strings with lengths [2] 1 000 000 times
+          total length 2 000 000, repeat 100 times
+  Time: 2 237 ms
+    Task: append strings with lengths [5] 1 000 000 times
+          total length 5 000 000, repeat 100 times
+  Time: 3 568 ms
+    Task: append strings with lengths [10] 1 000 000 times
+          total length 10 000 000, repeat 100 times
+  Time: 7 413 ms
+    Task: append strings with lengths [20] 1 000 000 times
+          total length 20 000 000, repeat 100 times
+  Time: 18 511 ms
+    Task: append strings with lengths [50] 1 000 000 times
+          total length 50 000 000, repeat 100 times
+  Time: 37 481 ms
+    Task: append strings with lengths [100] 1 000 000 times
+          total length 100 000 000, repeat 100 times
+  Time: 71 100 ms
+    Task: total stage part
+Stage 4.2: big count, single & double length
+  Time: 1 937 ms
+    Task: append strings with lengths [1, 2] 1 000 000 times
+          total length 3 000 000, repeat 100 times
+  Time: 3 157 ms
+    Task: append strings with lengths [2, 4] 1 000 000 times
+          total length 6 000 000, repeat 100 times
+  Time: 6 658 ms
+    Task: append strings with lengths [5, 10] 1 000 000 times
+          total length 15 000 000, repeat 100 times
+  Time: 12 049 ms
+    Task: append strings with lengths [10, 20] 1 000 000 times
+          total length 30 000 000, repeat 100 times
+  Time: 23 292 ms
+    Task: append strings with lengths [20, 40] 1 000 000 times
+          total length 60 000 000, repeat 100 times
+  Time: 57 952 ms
+    Task: append strings with lengths [50, 100] 1 000 000 times
+          total length 150 000 000, repeat 100 times
+  Time: 105 055 ms
+    Task: total stage part
+Stage 4.3: big count, various length
+  Time: 8 841 ms
+    Task: append strings with lengths [1, 10, 2, 5] 1 000 000 times
+          total length 18 000 000, repeat 100 times
+  Time: 15 600 ms
+    Task: append strings with lengths [2, 20, 4, 10] 1 000 000 times
+          total length 36 000 000, repeat 100 times
+  Time: 36 589 ms
+    Task: append strings with lengths [5, 50, 10, 25] 1 000 000 times
+          total length 90 000 000, repeat 100 times
+  Time: 71 454 ms
+    Task: append strings with lengths [10, 100, 20, 50] 1 000 000 times
+          total length 180 000 000, repeat 100 times
+  Time: 132 492 ms
+    Task: total stage part
+Stage done!
+  Time: 308 652 ms
+    Task: total stage
+Done!
+  Time: 734 481 ms
+    Task: total overall
+Total bytes wasted: 105 403 924 480 :)

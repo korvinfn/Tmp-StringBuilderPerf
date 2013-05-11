@@ -1,0 +1,7 @@
+/DotNet/bin
+/DotNet/obj
+/Delphi/Win32
+*.local
+*.identcache
+*.user
+*.suo
